@@ -30,5 +30,8 @@ finally:
     print("You need to correct the code if it didn't run previously or if it did, congo")
 
 
+
+# if the given condition in assertion block is true, the args messege excutes, if false, the code stops there and prints the arg messege
 print("checking assertion")
+# check if 1 is greater than 2, if not print the messege
 assert 1>2, "1 isn't greater than 2!"
