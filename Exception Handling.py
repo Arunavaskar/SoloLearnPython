@@ -1,8 +1,8 @@
 # Zero division error example
 
-#num1 = 1
-#num2 = 0
-#num1 / num2
+num1 = 1
+num2 = 0
+num1 / num2
 
 
 # Exception handling
