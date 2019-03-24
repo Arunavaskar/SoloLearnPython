@@ -19,6 +19,7 @@ except ZeroDivisionError: # except_ION
     print("Fuck, an error occured!")
     print(num3, " was num3 and ", num4, "was num4\nthey were devided by each other and caused a zero division error!")
 # This code will run no matter what!
+# finally statement even runs if an uncaught exception occurs in one of the preceding block
 finally:
     print("You need to correct the code if it didn't run previously or if it did, congo")
      
