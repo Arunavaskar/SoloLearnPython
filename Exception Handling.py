@@ -18,5 +18,7 @@ except ZeroDivisionError: # except_ION
     # and wil return a desired output!
     print("Fuck, an error occured!")
     print(num3, " was num3 and ", num4, "was num4\nthey were devided by each other and caused a zero division error!")
-
-        
+# This code will run no matter what!
+finally:
+    print("You need to correct the code if it didn't run previously or if it did, congo")
+     
