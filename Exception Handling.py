@@ -26,5 +26,9 @@ except:
 # finally statement even runs if an uncaught exception occurs in one of the preceding block
 else:
     print("congo there was no exceptions!")
-finally:
+finally: 
     print("You need to correct the code if it didn't run previously or if it did, congo")
+
+
+print("checking assertion")
+assert 1>2, "1 isn't greater than 2!"
