@@ -18,4 +18,4 @@ print(apply_twice(add_five, 10))
 #add_five(10)
 #   return 10 +5
 # and this gets repeated once more as apply_twice returns add_five(add_five(10))
-# so the inner section gets done, then the outer section which is basically repeatation of the same code! 
+# so the inner section gets done, then the outer section which is basically repeatation of the same code!    
