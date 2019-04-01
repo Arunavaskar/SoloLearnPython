@@ -45,3 +45,27 @@ p1 = Person("vaskar", 20)
 
 print(p1.name, "is ", p1.age, "years old.")
 p1.greeting
+
+
+# THE SELF PARAMETER
+
+# The self parameter is reference to the current instance of the class,
+# and is used to access variables that belongs to the class.
+
+# it does not have to be named self, it can be called whatever 
+# but it has to be the first parameter of any function class in the class.
+
+# use the words mysillyobject and abc instead of self
+
+
+class Person:
+    def __init__(mysillyobject, name, age):
+        mysillyobject.a = name
+        mysillyobject.b = age
+        
+    def greeting(abc):
+        print("greetings ",abc.a)
+p1 = Person("vaskar", 20)
+
+print(p1.a, "is ", p1.b, "years old.")
+p1.greeting()
