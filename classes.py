@@ -69,3 +69,16 @@ p1 = Person("vaskar", 20)
 
 print(p1.a, "is ", p1.b, "years old.")
 p1.greeting()
+
+
+# Modify object properties
+
+# set the age of p1 to 40
+
+p1.b = 40
+print(p1.b)
+
+# delete the age property from the p1 object
+
+del p1.b
+print(p1.b)
