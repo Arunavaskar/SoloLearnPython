@@ -30,3 +30,18 @@ print(p1.name, "is ", p1.age, "years old.")
 
 # objects can also contain methods!
 
+# insert a function that prints a greeting
+# and executes on the p1 object
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greeting(self):
+        print("greetings", self.name)
+
+p1 = Person("vaskar", 20)
+
+print(p1.name, "is ", p1.age, "years old.")
+p1.greeting
