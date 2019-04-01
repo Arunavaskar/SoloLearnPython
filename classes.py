@@ -7,5 +7,26 @@
 class MyClass:
     x = 5
 # create an object named p1, and print the value of x
-p1 = MyClass()
+p2 = MyClass()
 print(p1.x)
+
+# all classes have a function called __init__(), which is always
+# initiated when the class is being initiated
+# use the __init__() function to assign values to object properties, 
+# or other operations that are necessary to do when the object is being created
+
+
+# create class name person, use the __init__() function to assign 
+# values for name and age
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+p1 = Person("vaskar", 20)
+
+print(p1.name, "is ", p1.age, "years old.")
+
+
+# objects can also contain methods!
+
